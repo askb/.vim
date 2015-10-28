@@ -1,0 +1,21 @@
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = git@github.com:fatih/vim-go.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe.git
+[submodule "bundle/vim-sensible"]
+	path = bundle/vim-sensible
+	url =  git@github.com:tpope/vim-sensible.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url =  git@github.com:scrooloose/syntastic.git
+[submodule "bundle/vundle"]
+	path = bundle/vundle
+	url =  git@github.com:gmarik/vundle.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url =  git@github.com:majutsushi/tagbar
