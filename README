@@ -1,1 +1,22 @@
-This has vim config for .go, .c, .py code.
+This has vim config for .go, .c, .py code. 
+
+### Steps to clone .vim repo into your dev env before getting started.
+
+$ git clone https://github.com/askb/.vim.git ~/.vim
+$ ln -s ~/.vim/vimrc ~/.vimrc
+$ cd ~/.vim
+
+### Keep the submodules update for changes 
+$ git submodule init
+$ git submodule update
+$ git submodule update --remote --checkout
+
+### To install YouCompleteMe. 
+$ cd ~/.vim/bundle
+$ cd YouCompleteMe
+$ git submodule update --init --recursive
+$ ./install.py
+
+
+
+
