@@ -16,7 +16,7 @@ filetype plugin indent on
 syn on se title
 
 " set wrap
-"set linebreak
+" set linebreak
 " note trailing space at end of next line
 set showbreak=>\ \ \
 
@@ -32,10 +32,14 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+" set background=default
+" colorscheme solarized
 
 syntax enable
 filetype plugin on
+set relativenumber
 set number
+set cursorline
 let g:go_disable_autoinstall = 0
 
 " use goimports for formatting
@@ -113,7 +117,7 @@ set viminfo='100,\"2500,:200,%,n~/.viminfo
 
 
 nmap <F8> :TagbarToggle<CR>
-" map <C-n> :NERDTreeToggle<CR>
+nmap <C-n> :NERDTreeToggle<CR>
 
 " default leader key is ',' / comma
 au Filetype go nnoremap <leader>v :vsp <CR>:exe "GoDef" <CR>
