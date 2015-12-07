@@ -3,7 +3,7 @@ This has vim config for .go, .c, .py code.
 ### Steps to clone .vim repo into your dev env before getting started.
 
 $ git clone https://github.com/askb/.vim.git ~/.vim
-$ ln -s ~/.vim/vimrc ~/.vimrc
+$ ln -s ~/.vim/.vimrc ~/.vimrc
 $ cd ~/.vim
 
 ### Keep the submodules update for changes 
