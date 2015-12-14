@@ -34,6 +34,7 @@ filetype plugin indent on
 
 " set background=default
 " colorscheme solarized
+colorscheme molokai
 
 syntax enable
 filetype plugin on

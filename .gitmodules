@@ -22,3 +22,6 @@
 [submodule "altercation/solarized"]
 	path = altercation/solarized
 	url =  git@github.com:altercation/solarized.git
+[submodule "fatih/molokai"]
+	path = fatih/molokai
+	url =  git@github.com:fatih/molokai
