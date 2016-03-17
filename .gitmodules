@@ -18,10 +18,16 @@
 	url =  git@github.com:gmarik/vundle.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
-	url =  git@github.com:majutsushi/tagbar
+	url =  git@github.com:majutsushi/tagbar.git
 [submodule "altercation/solarized"]
 	path = altercation/solarized
 	url =  git@github.com:altercation/solarized.git
 [submodule "fatih/molokai"]
 	path = fatih/molokai
-	url =  git@github.com:fatih/molokai
+	url =  git@github.com:fatih/molokai.git
+[submodule "hynek/vim-python-pep8-indent"]
+	path = hynek/vim-python-pep8-indent
+	url =  git@github.com:hynek/vim-python-pep8-indent.git
+[submodule "ftplugin/python.vim"]
+	path = ftplugin/python.vim
+	url =  git@github.com:ftplugin/python.vim.git

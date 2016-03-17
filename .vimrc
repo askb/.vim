@@ -7,10 +7,13 @@ set et
 set sw=4
 set smarttab
 map <f2> :w\|!python %
+map <f2> :w\|!go run %
 
 
+autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
+autocmd BufRead *.py set nocindent
+" autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
 autocmd BufWritePre *.py :%s/\s\+$//e
-
 
 filetype plugin indent on
 syn on se title
@@ -34,13 +37,16 @@ filetype plugin indent on
 
 " set background=default
 " colorscheme solarized
-colorscheme molokai
+" colorscheme molokai
 
 syntax enable
 filetype plugin on
+color desert
 set relativenumber
 set number
-set cursorline
+"set cursorline
+"set cursorcolumn
+hi CursorLine term=bold cterm=bold guibg=Grey40
 let g:go_disable_autoinstall = 0
 
 " use goimports for formatting
@@ -124,6 +130,5 @@ nmap <C-n> :NERDTreeToggle<CR>
 au Filetype go nnoremap <leader>v :vsp <CR>:exe "GoDef" <CR>
 au Filetype go nnoremap <leader>s :sp <CR>:exe "GoDef"<CR>
 au Filetype go nnoremap <leader>t :tab split <CR>:exe "GoDef"<CR>
-
 
 
